@@ -1,0 +1,18 @@
+# Ignore Visual Studio/IDE files
+.vs/
+*.vcxproj*
+*.suo
+*.user
+*.filters
+
+# Ignore build directories
+x64/
+bin/
+obj/
+
+# Ignore Git metadata folders
+.git/
+
+# Ignore system files
+*.DS_Store
+Thumbs.db
