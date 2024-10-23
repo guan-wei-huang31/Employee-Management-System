@@ -97,7 +97,7 @@ If not using Makefile, compile manually with:
 ### **Entity-Relationship Diagram (ERD)**
 The ER diagram for the Employee Management System shows the relationships between the main entities.
 1. ER diagram of database:
-   <img src="assets/ER_diagram.png" alt="Employee Management Screenshot" width="600" height="auto"/>
+   <img src="assests/ER_diagram.png" alt="Employee Management Screenshot" width="600" height="auto"/>
 
 ### **Usage Instructions**
 1. After launching the system, the main menu will appear:
