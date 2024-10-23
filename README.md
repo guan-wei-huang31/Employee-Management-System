@@ -18,7 +18,7 @@ The system design follows standard database modeling principles with normalized 
   - Prevents duplicate employee entries and validates user inputs.
 - **SQL Error Handling**: 
   - Handles **SQL** errors gracefully and ensures a stable runtime.
-- **SQL Error Handling**:
+- **Database Setup Scripts**:
   - Supports SQL scripts to initialize, reset, and populate the database for quick setup.
 
 ### **SQL and C++ Integration**
@@ -37,8 +37,8 @@ Employee-Management-System/
 │  
 ├── src/                           # Source code files  
 │   ├── main.cpp                   # Main program entry point
-│   ├── utility.cpp  
-│   └── utility.h                    
+│   ├── utility.cpp                # Utility functions implementation
+│   └── utility.h                  # Utility function declarations
 │  
 ├── sql-scripts/                   # SQL scripts for database setup   
 │   └── Employee_Schema_Data.sql   # SQL for creating tables and inserting data  
